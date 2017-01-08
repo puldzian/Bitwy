@@ -1,0 +1,55 @@
+# Idee na dalszy rozwój
+
+## WYGLĄD
+wygląd niby-starej gazety
+z boku mapka, na której czerwoną ikoną - aktualne wydarzenie,
+	przyciemnioną ikoną - dokonane wydarzenia
+	mieczyki skrzyżowane - bitwy
+	płomień - zamieszki
+
+w treści wytłuszczenia ważnych nazw
+
+## TREŚĆ
+powstanie w rejonie dobryszyckim
+	mapa obejmuje tereny, dostępne rowerem
+okupant nie zostaje zdradzony z nazwy
+może też ukryć rok powstania?
+ewentualnie wybrać "ogólniejsze" powstanie - albo 1863 albo 1905, no albo 1945
+	w tym drugim większe możliwości społecznych aktorów:
+	1. PPSy i robotnicy
+	2. anarchiści i mściciele
+	3. endecja
+	4. chłopstwo wzburzone
+	5. żydzi 
+	6. etc
+	Wszyscy się biją ze wszystkimi:
+	Każda frakcja ma relacje z innymi frakcjami i od tego zależy,
+		z kim będą wchodzić w interakcję, kogo atakowąć, a kogo wspierać
+		wydarzenia mogą zmieniać relacje. 
+
+## FRAKCJE 1905
+* okupant
+*** LEWICA
+* socjaliści
+* robotnicy
+* mściciele
+* uczniowie
+* chłopi
+* parobkowie
+*** PRAWICA
+* zaciąg księdza
+* zubożała szlachta
+* wojska fabrykanta
+* wojska dziedzica
+* maruderzy
+* endecja
+ 
+
+
+## WERSJA 1.0
+* Prześledzenie losów powstania od początku - przez kolejne kampanie - do zakończenia
+* Sukces: Republika Dobryszycka
+* Po przejściu przez wszystkie wydarzenia: strona podsumowania, zawierająca całość
+* Możliwość wyciągnięcia całej historii w jeden plik i wydrukowania!
+* Biogramy bohaterów
+* Możliwość przejścia od razu do zakończenia i dostania powstania
