@@ -1,56 +1,42 @@
 // Plik zawiera słowa do generatorów
+
 var banda = [
         // Frakcja, która zaczęła inbę
         // index 0 - końcówka gramatyczna
         // 1 - ny, 2 - na, 3 - ni, 4 - ne
-        [1, "agentura"],
-        [3, "anarchistki"],
-        [2, "anarchiści"],
-        [1, "banda przestępców"],
-        [2, "bandyci"],
-        [1, "bandyterka"],
-        [2, "demagodzy"],
-        [1, "hołota"],
-        [1, "horda"],
-        [2, "maruderzy"],
-        [0, "motłoch"],
-        [2, "podżegacze"],
-        [2, "przestępcy"],
-        [2, "rewolucjoniści"],
-        [0, "tłum"],
-        [2, "wichrzyciele"],
-        [2, "zbrodniarze"]
+        [1, "agentura", "agentury", "agenturze", "agenturę", "agenturą", "agenturze", "agenturo"],
+        [4, "anarchistki", "anarchistek", "anarchistkom", "anarchistki", "anarchistkami", "anarchistkach", "anarchistki"],
+        [3, "anarchiści", "anarchistów", "anarchistom", "anarchistów", "anarchistami", "anarchistach", "anarchiści"],
+        [1, "banda przestępców", "bandy przestępców", "bandzie przestępców", "bandę przestępców", "bandą przestępców", "bandzie przestępców", "bando przestępcow"],
+        [3, "bandyci", "bandytów", "bandytom", "bandytów", "bandytami", "bandytach", "bandyci"],
+        [1, "bandyterka", "bandyterki", "bandyterce", "bandyterkę", "bandyterką", "bandyterce", "bandyterko"],
+        [3, "demagodzy", "demagogów", "demagogom", "demagogów", "demagogami", "demagogach", "demagodzy"],
+        [1, "hołota", "hołoty", "hołocie", "hołotę", "hołotą", "hołocie", "hołoto"],
+        [1, "horda", "hordy", "hordzie", "hordę", "hordą", "hordzie", "hordo"] //,
+//        [2, "maruderzy"],
+//        [0, "motłoch"],
+//        [2, "podżegacze"],
+//        [4, "podżegaczki"]
+//        [2, "przestępcy"],
+//        [2, "rewolucjoniści"],
+//        [0, "tłum"],
+//       [2, "wichrzyciele"],
+//        [2, "wywrotowcy"],
+//        [2, "zamachowcy"],
+//        [2, "zbrodniarze"],
+//        [2, "złoczyńcy"]
     ],
-    bandadj = [
-        // Przymiotnik, który określa bandę w pierwszym dniu
-        ["bezwzględny", "bezwzględna", "bezwzględni", "bezwzględne"],
-        ["okrutny", "okrutna", "okrutni", "okrutne"],
-        ["zuchwały", "zuchwała", "zuchwali", "zuchwałe"]
-    ],
-    miejsce = [
-        // Myślę, żeby później zawęzić to do gminy Dobryszyce, wtedy będzie można lepiej kontrolować geografię
-        // Planować kampanie między elementami połączonymi drogami, a nie randomow
-        ["Blachownia", "Blachowni", "Blachowni", "Blachownię", "Blachownią", "Blachowni", "Blachownio"],
-        ["Częstochowa", "Częstochowy", "Częstochowie", "Częstochowę", "Częstochową", "Częstochowie", "Częstochowo"],
-        ["Dobryszyce", "Dobryszyc", "Dobryszycom", "Dobryszyce", "Dobryszycami", "Dobryszycach", "Dobryszyce"],
-        ["Gidle", "Gidli", "Gidlom", "Gidle", "Gidlami", "Gidlach", "Gidle"],
-        ["Gomunice", "Gomunic", "Gomunicom", "Gomunice", "Gomunicami", "Gomunicach", "Gomunice"],
-        ["Janów", "Janowa", "Janowowi", "Janów", "Janowem", "Janowie", "Janowie"],
-        ["Kamieńsk", "Kamieńska", "Kamieńsku", "Kamieńsk", "Kamieńskiem", "Kamieńsku", "Kamieńsku"],
-        ["Kleszczów", "Kleszczowa", "Kleszczowowi", "Kleszczów", "Kleszczowem", "Kleszczowie", "Kleszczowie"],
-        ["Koniecpol", "Koniecpola", "Koniecpolowi", "Koniecpol", "Koniecpolem", "Koniecpolu", "Koniecpolu"],
-        ["Łódź", "Łodzi", "Łodzi", "Łódź", "Łodzią", "Łodzi", "Łodzi"],
-        ["Mykanów", "Mykanowa", "Mykanowowi", "Mykanów", "Mykanowem", "Mykanowie", "Mykanowie"],
-        ["Olsztyn", "Olsztyna", "Olsztynowi", "Olsztyn", "Olsztynem", "Olsztynie", "Olsztynie"],
-        ["Pajęczno", "Pajęczna", "Pajęcznu", "Pajęczno", "Pajęcznem", "Pajęcznie", "Pajęczno"],
-        ["Piotrków Trybunalski", "Piotrkowa Trybunalskiego", "Piotrkowowi Trybunalskiemu", "Piotrków Trybunalski", "Piotrkowem Trybunalskim", "Piotrkowie Trybunalskim", "Piotrkowie Trybunalski"],
-        ["Przedbórz", "Przedborza", "Przedborzu", "Przedbórz", "Przedborzem", "Przedborzu", "Przedborzu"],
-        ["Radomsko", "Radomska", "Radomsku", "Radomsko", "Radomskiem", "Radomsku", "Radomsko"],
-        ["Wielgomłyny", "Wielgomłynów", "Wielgomłynom", "Wielgomłyny", "Wielgomłynami", "Wielgomłynach", "Wielgomłyny"],
-        ["Wola Krzysztoporska", "Woli Krzysztoporskiej", "Woli Krzysztoporskiej", "Wolę Krzysztoporską", "Wolą Krzysztoporoską", "Woli Krzysztoporskiej", "Wolo Krzysztoporoska"],
-        ["Żytno", "Żytna", "Żytnu", "Żytno", "Żytnem", "Żytnie", "Żytno"]
-    ],
-    zamieszki = ["demonstracje", "ferment", "kontrowersje", "niepokój", "niepokoje", "poruszenie", "rebelia", "rozruchy", "ruchawka", "rwetes", "tumult", "wzburzenie", "zamieszki"];
+//    NIE ZNAM PRZYPADKÓW
+//    0 --
+//    1 mianownik (kto? co?)
+//    2 dopełniacz (kogo? czego?)
+//    3 celownik (komu? czemu?)
+//    4 biernik (kogo? co?)
+//    5 narzędnik ((z) kim? (z) czym?)
+//    6 miejscownik (o kim? o czym?)
+//    7 wołacz (–[1][2])
+    nieszczescie = [ "hiobowe wieści", "nieszczęcie", "podłe nowiny", "ponure nowiny", "złe wieści"],
+    zamieszki = ["demonstracje", "ferment", "kontrowersje", "niepokój", "niepokoje", "poruszenie", "rozruchy", "ruchawka", "rwetes", "tumult", "wzburzenie", "zamieszki"];
 
 //    NIE ZNAM PRZYPADKÓW
 //    0 mianownik (kto? co?)

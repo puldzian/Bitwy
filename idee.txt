@@ -1,6 +1,16 @@
 # Idee na dalszy rozwój
 
-## WYGLĄD
+Trzeba zrobić rozsądny roadmap podzielony na wersje!!
+
+### 0.1 BITWA
+* każdego dnia odbywa się jakaś bitwa
+* armie są generowane na bieżąco
+* podstawowy opis, dwa zmieniające się słowa
+* wynik zależny od ilości ludzi i dodatkowego sprzętu
+
+### 0.2
+
+### WYGLĄD
 wygląd niby-starej gazety
 z boku mapka, na której czerwoną ikoną - aktualne wydarzenie,
 	przyciemnioną ikoną - dokonane wydarzenia
@@ -9,7 +19,7 @@ z boku mapka, na której czerwoną ikoną - aktualne wydarzenie,
 
 w treści wytłuszczenia ważnych nazw
 
-## TREŚĆ
+### TREŚĆ
 powstanie w rejonie dobryszyckim
 	mapa obejmuje tereny, dostępne rowerem
 okupant nie zostaje zdradzony z nazwy
@@ -27,7 +37,7 @@ ewentualnie wybrać "ogólniejsze" powstanie - albo 1863 albo 1905, no albo 1945
 		z kim będą wchodzić w interakcję, kogo atakowąć, a kogo wspierać
 		wydarzenia mogą zmieniać relacje. 
 
-## FRAKCJE 1905
+### FRAKCJE 1905
 * okupant
 *** LEWICA
 * socjaliści
@@ -49,6 +59,7 @@ ewentualnie wybrać "ogólniejsze" powstanie - albo 1863 albo 1905, no albo 1945
 ## WERSJA 1.0
 * Prześledzenie losów powstania od początku - przez kolejne kampanie - do zakończenia
 * Sukces: Republika Dobryszycka
+* Porażka: armie powstańcze zlikwidowane
 * Po przejściu przez wszystkie wydarzenia: strona podsumowania, zawierająca całość
 * Możliwość wyciągnięcia całej historii w jeden plik i wydrukowania!
 * Biogramy bohaterów

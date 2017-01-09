@@ -5,19 +5,25 @@
     <link type="text/css" rel="stylesheet" href="bitwy.css" />
     <script src="libs/jquery-3.1.1.min.js"></script>
     <script src="bitwy.js"></script>
-    <script src="slowa.js"></script>
-    <title>Powstanie dobryszyckie, prototyp</title>
+    <script src="slowa.js"></script> <!-- docelowo opróżnić to na rzecz konkretnych plikow -->
+    <script src="slowa/czasownik.js"></script>
+    <script src="slowa/miejsce.js"></script>
+    <script src="slowa/przymiotnik.js"></script>
+    <script src="slowa/przyslowek.js"></script>
+    <script src="slowa/rzeczownik.js"></script>
+    <title>Bitwy</title>
 </head>
 <body>
     <div id="generator">
-        <p id="gen_wstep" class="gen">&nbsp;</p>
+        <p id="gen_tytul" class="gen">&nbsp;</p>
         <p id="gen_data" class="gen">&nbsp;</p>
-        <p id="gen_tresc1" class="gen">&nbsp;</p>
-        <p id="gen_tresc2" class="gen">&nbsp;</p>
+        <p id="gen_akapit1" class="gen">&nbsp;</p>
+        <p id="gen_akapit2" class="gen">&nbsp;</p>
+        <p id="gen_akapit3" class="gen">&nbsp;</p>
         <p id="gen_koniec" class="gen">&nbsp;</p>
     </div>
     <div id="przycisk">
-        <button onclick="bitwy()">Do boju!</button>
+        <button onclick="funkcjaPrzycisk()">Do boju!</button>
     </div>
 </body>
 </html>
