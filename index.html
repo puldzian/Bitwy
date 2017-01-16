@@ -4,6 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link type="text/css" rel="stylesheet" href="bitwy.css" />
     <script src="libs/jquery-3.1.1.min.js"></script>
+    <script src="maszyny.js"></script>
     <script src="bitwy.js"></script>
     <script src="slowa.js"></script> <!-- docelowo opróżnić to na rzecz konkretnych plikow -->
     <script src="slowa/czasownik.js"></script>
@@ -22,8 +23,11 @@
         <p id="gen_akapit3" class="gen">&nbsp;</p>
         <p id="gen_koniec" class="gen">&nbsp;</p>
     </div>
-    <div id="przycisk">
-        <button onclick="funkcjaPrzycisk()">Do boju!</button>
+    <div class="przycisk">
+        <button onclick="przyciskDzien1()">dzienPierwszy()!</button>
+    </div>
+    <div class="przycisk">
+        <button onclick="przyciskBitwa()">przeprowadzBitwe()!</button>
     </div>
 </body>
 </html>
